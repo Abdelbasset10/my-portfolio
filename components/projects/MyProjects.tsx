@@ -34,20 +34,26 @@ const MyProjects = () => {
                         {projects.map((project,index)=>(
                                 <SwiperSlide key={index} >
                                 <div className='flex flex-col-reverse md:flex-row ' >
-                                    <div className='w-full md:w-[60%] mb-6 md:mb-0 p-4 flex flex-col gap-2' >
+                                    <div className='w-full md:w-[50%] mb-10 md:mb-4 p-4 flex flex-col' >
                                         <h1 className='text-xl font-bold' >{project.title}</h1>
-                                        <p className='text-slate-500' >{project.dec}</p>
+                                        <p className='text-slate-500 text-sm lg:text-base my-2' >{project.dec}</p>
                                         <div className='flex flex-wrap items-center gap-2' >
                                             {project.skills.map((skill,index)=>(
-                                                <div key={index} className='p-2 rounded-[8px] bg-slate-800' >
-                                                    <p className='text-white' >{skill}</p>
+                                                <div key={index} className='p-1 md:p-2 rounded-[8px] bg-slate-800' >
+                                                    <p className='text-white text-sm lg:text-base' >{skill}</p>
                                                 </div>
                                             ))}
 
                                         </div>
+                                        <div className='flex items-center flex-wrap gap-3 mt-4' >
+                                            <a href={project.github} target='_blank' className='text-sm lg:text-base text-neutral-700 hover:text-neutral-900' >Github</a>
+                                            {project.production && (
+                                                <a href={project.production} target='_blank' className='text-sm lg:text-base text-neutral-700 hover:text-neutral-900'>Production</a>
+                                            )}
+                                        </div>
                                     </div>
-                                    <div className='w-full md:w-[40%] min-h-[20rem] relative' >
-                                        <Image src="/image/me.jfif" fill alt='project image' className='object-cover' />
+                                    <div className='w-full md:w-[50%] min-h-[20rem] relative' >
+                                        <Image src={project.image} fill alt='project image' className='object-contain' />
                                     </div>
                                 </div>
                                 

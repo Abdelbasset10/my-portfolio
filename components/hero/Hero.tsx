@@ -9,6 +9,16 @@ import Writter from './Writter'
 import { LuLoader2 } from "react-icons/lu";
 
 const Hero = () => {
+    const words = ["hello", "how are u"];
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
+    }, 2000); // Adjust the duration as needed
+
+    return () => clearInterval(intervalId);
+  }, []);
     const [isMounted,setIsMounted] = useState(true)
 
     useEffect(()=>{

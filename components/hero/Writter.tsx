@@ -21,7 +21,7 @@ const Writter = () => {
     "Rezazi Mohamed Abdelbasset",
     500 //  Continuing previous Text
   ]}
-  style={{ fontSize: '20px' }}
+  style={{ fontSize: '20px',fontWeight:"bold" }}
   
 />
   )

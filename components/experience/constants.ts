@@ -1,6 +1,6 @@
 export const experiences = [
     {
-        title:"Front-end Devoloper",
+        title:"Front-end Devoloper (Remote)",
         company:"Factory degitale",
         description:["i worked as front-end devoloper in factory degitale company for 3 mounth with full time worked on two dashboards related to two mobile applications differents got a lot of experience in that job when i met many of senior devolopers"],
         startDate:"06/2023",
