@@ -44,7 +44,7 @@ const Skills = () => {
                     }}     
                     custom={index}>
                         <div className='bg-slate-200 px-2 py-1 rounded-[8px]' >
-                            <p>{skill}</p>
+                            <p className='dark:text-slate-800' >{skill}</p>
                         </div>
                     </motion.li>
                 ))}
