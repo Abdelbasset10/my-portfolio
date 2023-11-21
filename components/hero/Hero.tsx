@@ -52,7 +52,11 @@ const Hero = () => {
                     <a href="/pdf/CV.pdf" download>
                         <button className='bg-black text-white hover:bg-white hover:text-black cursor-pointer w-36  py-2 rounded-[8px]' >Download CV</button>
                     </a>
-                    <button className='bg-white text-black hover:bg-black hover:text-white w-36  py-2 rounded-[8px]' >Contact Me</button>
+                    <a href="#hero">
+                        <button className='bg-white text-black hover:bg-black hover:text-white w-36  py-2 rounded-[8px]' >
+                            Contact Me
+                        </button>
+                    </a>
                 </div>
                 <div className='flex items-center gap-2' >
                     <a href='https://github.com/Abdelbasset10' target='_blank'>
