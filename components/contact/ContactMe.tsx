@@ -73,7 +73,7 @@ const ContactMe = () => {
                 className='w-full p-2 outline-none rounded-[8px] border-[1px] border-slate-500 text-slate-500'
                 onChange={handleChange}>
             </textarea>
-            <button disabled={isSubmiting} type='submit' className={`${isSubmiting ? "bg-black" : "bg-slate-900 hover:bg-slate-950"} w-fit px-4 py-2 text-white rounded-[8px]`} >Submit</button>
+            <button disabled={isSubmiting} type='submit' className={`${isSubmiting ? "bg-black" : "bg-slate-900 hover:bg-slate-950"} dark:bg-white dark:text-slate-800 w-fit px-4 py-2 text-white rounded-[8px]`} >Submit</button>
         </form>
         <Toaster />
     </div>
