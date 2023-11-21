@@ -54,7 +54,7 @@ const MyProjects = () => {
                                             )}
                                         </div>
                                     </div>
-                                    <div className='w-full md:w-[50%] min-h-[20rem] relative' >
+                                    <div className='w-full md:w-[50%] min-h-[10rem] sm:min-h-[15rem] md:min-h-[20rem] relative' >
                                         <Image src={project.image} fill alt='project image' className='object-contain' />
                                     </div>
                                 </div>
