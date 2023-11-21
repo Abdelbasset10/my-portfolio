@@ -5,6 +5,8 @@ import React, { useEffect, useState } from 'react'
 import { motion } from "framer-motion";
 
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import { MdEmail } from "react-icons/md";
+
 import Writter from './Writter'
 import { LuLoader2 } from "react-icons/lu";
 
@@ -53,12 +55,15 @@ const Hero = () => {
                     <button className='bg-white text-black hover:bg-black hover:text-white w-36  py-2 rounded-[8px]' >Contact Me</button>
                 </div>
                 <div className='flex items-center gap-2' >
-                    <Link href='https://github.com/Abdelbasset10'>
+                    <a href='https://github.com/Abdelbasset10' target='_blank'>
                         <FaGithub className="text-4xl cursor-pointer" />
-                    </Link>
-                    <Link href='https://www.linkedin.com/in/rezazi-mohamed-abdelbasset-2199a824b/'>
+                    </a>
+                    <a href='https://www.linkedin.com/in/rezazi-mohamed-abdelbasset-2199a824b/' target='_blank'>
                         <FaLinkedin className="text-4xl cursor-pointer" />
-                    </Link>
+                    </a>
+                    <a href='https://mail.google.com/mail/?view=cm&fs=1&to=basset.rezazi26@gmail.com' target='_blank'>
+                        <MdEmail className="text-4xl cursor-pointer" />
+                    </a>
 
                 </div>
             </div>

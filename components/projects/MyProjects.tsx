@@ -46,7 +46,9 @@ const MyProjects = () => {
 
                                         </div>
                                         <div className='flex items-center flex-wrap gap-3 mt-4' >
-                                            <a href={project.github} target='_blank' className='text-sm lg:text-base text-neutral-700 hover:text-neutral-900' >Github</a>
+                                            {project.github && (
+                                                <a href={project.github} target='_blank' className='text-sm lg:text-base text-neutral-700 hover:text-neutral-900' >Github</a>
+                                            )}
                                             {project.production && (
                                                 <a href={project.production} target='_blank' className='text-sm lg:text-base text-neutral-700 hover:text-neutral-900'>Production</a>
                                             )}

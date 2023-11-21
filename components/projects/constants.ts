@@ -1,18 +1,18 @@
 export const projects = [
     {
         title:"Airbnb clone",
-        dec:"Full Stack airbnb clone where ysers can book houses in any country in the world with advance functionalities. similair to airbnb",
+        dec:"Full Stack airbnb clone where uers can book houses in any country in the world with advance functionalities. similair to airbnb",
         skills:["NextJS 13","TypeScript","Tailwind Css","Redux Toolkit","expressJs (inside nextjs)","Prisma","MongoDB"],
         image:"/image/airbnb.webp",
         production:"https://abdelbasset-reserve-abdelbasset10.vercel.app/",
         github:"https://github.com/Abdelbasset10/Airbnb-clone"
     },
-    {
-        title:"Learning Managment System",
-        dec:"Full Stack Platfroms where users can study many field in this platform and also can teach on it",
-        skills:["NextJS 13","TypeScript","Shadcn","Tailwind Css","Redux Toolkit","NodeJs","expressJs","Prisma","MongoDB"],
-        image:"", 
-    },
+    // {
+    //     title:"Learning Managment System",
+    //     dec:"Full Stack Platfroms where users can study many field in this platform and also can teach on it",
+    //     skills:["NextJS 13","TypeScript","Shadcn","Tailwind Css","Redux Toolkit","NodeJs","expressJs","Prisma","MongoDB"],
+    //     image:"", 
+    // },
     {
       title:"Deliveroo 2.0 Clone",
       dec:"Application mobile for deliveroo where you can order your foods",
@@ -30,18 +30,26 @@ export const projects = [
       production:""
     },
     {   
-        title:"Restaurant website",
-        dec: "Fully responsive rstaurant website with a cool design that present restaurant with quality work",
-        github: "https://github.com/Abdelbasset10/Front-end-restaurant-website",
-        production: "https://abdelbasset-restaurant.netlify.app/",
-        skills:["ReactJs,Tailwind Css"],
-        image:"/image/restaurant.png"
-      },
-      {
-        title:"Devfest 22 website",
-        dec: "Devfest-22 website with a wonderful design that present Devfest-22 organized buy GDG Algiers",
-        production: "https://devfest22.gdgalgiers.com/",
-        skills:["React","Tailwind Css"],
-        image:"/image/devfest.png"
-      },
+      title:"GDG Algiers website",
+      dec: "A cool website for GDG Algiers club where you can find everything related to GDG Algiers, i was in the team who build this amazing website",
+      github: "",
+      production: "https://www.gdgalgiers.com",
+      skills:["NextJs,Tailwind Css","AOS"],
+      image:"/image/gdg.png"
+    },
+    {   
+      title:"Restaurant website",
+      dec: "Fully responsive rstaurant website with a cool design that present restaurant with quality work",
+      github: "",
+      production: "https://abdelbasset-restaurant.netlify.app/",
+      skills:["ReactJs,Tailwind Css"],
+      image:"/image/restaurant.png"
+    },
+      // {
+      //   title:"Devfest 22 website",
+      //   dec: "Devfest-22 website with a wonderful design that present Devfest-22 organized buy GDG Algiers",
+      //   production: "https://devfest22.gdgalgiers.com/",
+      //   skills:["React","Tailwind Css"],
+      //   image:"/image/devfest.png"
+      // },
 ]

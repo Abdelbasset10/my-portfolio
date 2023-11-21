@@ -14,10 +14,6 @@ const Writter = () => {
   return (
     <TypeAnimation
   sequence={[
-    'Rezazi',
-    500,
-    'Mohamed Abdelbasset',
-    500,
     "Rezazi Mohamed Abdelbasset",
     500 //  Continuing previous Text
   ]}
